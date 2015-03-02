@@ -13,6 +13,13 @@
 		20E5680E1A9F69E00030122A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E5680D1A9F69E00030122A /* Images.xcassets */; };
 		20E568111A9F69E00030122A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20E5680F1A9F69E00030122A /* LaunchScreen.xib */; };
 		20E5681D1A9F69E00030122A /* TabBarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5681C1A9F69E00030122A /* TabBarDemoTests.swift */; };
+		20E568271AA03D120030122A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E568261AA03D120030122A /* MessageViewController.swift */; };
+		20E568291AA040350030122A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E568281AA040350030122A /* TabbarController.swift */; };
+		20E5682B1AA0BAD40030122A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5682A1AA0BAD40030122A /* CustomButton.swift */; };
+		20E5682F1AA1566E0030122A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5682E1AA1566E0030122A /* TabViewController.swift */; };
+		20E568311AA164ED0030122A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E568301AA164ED0030122A /* TabBarView.swift */; };
+		20E568331AA17EBE0030122A /* MentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E568321AA17EBE0030122A /* MentionViewController.swift */; };
+		20E568351AA17ED10030122A /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E568341AA17ED10030122A /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		20E568161A9F69E00030122A /* TabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E5681B1A9F69E00030122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E5681C1A9F69E00030122A /* TabBarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarDemoTests.swift; sourceTree = "<group>"; };
+		20E568261AA03D120030122A /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		20E568281AA040350030122A /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		20E5682A1AA0BAD40030122A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		20E5682E1AA1566E0030122A /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		20E568301AA164ED0030122A /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		20E568321AA17EBE0030122A /* MentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionViewController.swift; sourceTree = "<group>"; };
+		20E568341AA17ED10030122A /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,13 @@
 				20E5680D1A9F69E00030122A /* Images.xcassets */,
 				20E5680F1A9F69E00030122A /* LaunchScreen.xib */,
 				20E568041A9F69E00030122A /* Supporting Files */,
+				20E568261AA03D120030122A /* MessageViewController.swift */,
+				20E568281AA040350030122A /* TabbarController.swift */,
+				20E5682A1AA0BAD40030122A /* CustomButton.swift */,
+				20E5682E1AA1566E0030122A /* TabViewController.swift */,
+				20E568301AA164ED0030122A /* TabBarView.swift */,
+				20E568321AA17EBE0030122A /* MentionViewController.swift */,
+				20E568341AA17ED10030122A /* GroupViewController.swift */,
 			);
 			path = TabBarDemo;
 			sourceTree = "<group>";
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E568351AA17ED10030122A /* GroupViewController.swift in Sources */,
 				20E568091A9F69E00030122A /* ViewController.swift in Sources */,
+				20E568291AA040350030122A /* TabbarController.swift in Sources */,
+				20E568311AA164ED0030122A /* TabBarView.swift in Sources */,
+				20E568271AA03D120030122A /* MessageViewController.swift in Sources */,
 				20E568071A9F69E00030122A /* AppDelegate.swift in Sources */,
+				20E5682F1AA1566E0030122A /* TabViewController.swift in Sources */,
+				20E5682B1AA0BAD40030122A /* CustomButton.swift in Sources */,
+				20E568331AA17EBE0030122A /* MentionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
